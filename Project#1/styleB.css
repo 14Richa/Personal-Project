@@ -1,0 +1,33 @@
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100%;
+}
+
+.box {
+  background-color: #eeeff2;
+  border-left: 10px dotted #d0d0ff;
+  flex-shrink: 0;
+  font-family: "Tahoma", sans-serif;
+  font-size: 40px;
+  height: 140px;
+  margin: 5px;
+  padding: 10px 0 0 10px;
+  width: 90px;
+}
+
+.box:hover {
+  background-color: yellow;
+  color: goldenrod;
+  cursor: pointer;
+}
+
+.box-3 {
+  bottom: 0px;
+  position: absolute;
+  right: 0px;
+}
